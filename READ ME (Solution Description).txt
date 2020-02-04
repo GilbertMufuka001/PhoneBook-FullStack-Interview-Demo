@@ -1,0 +1,54 @@
+*********************************
+PhoneBook Demo Project (VS 2017)*
+By : Gilbert. S. Mufuka 	*
+*********************************
+
+Solution consists of 5 projects.
+
+ - Data Layer Project :  (library) Uses Dapper Micro ORM with SQL-Lite DB. Also Has Data Access Container And Entity Container
+
+                  Data Access Container
+			|
+                     	|__Enitity Container
+				|
+				|__Dapper ORM
+					|
+					|__SQL Lite DB
+
+
+ - Business Layer Project: (library) Has a Repository, Model Container and a Custom Mapper 
+
+                  Repository
+			|
+                     	|__Model Container 
+				|
+				|__Custom Mapper
+
+
+ - Service Layer Project: (Restful Service) Has Rest Web API (CoRS enabled, No Authentication)
+
+                  Rest API 
+			|
+                     	|__Phone Book Controller
+
+
+ - PhoneBook Project: (Wenbite) Consists of a .Net Core MVC Website, An Angular 8 Project
+
+                  .Net Core MVC Website
+			|
+                     	|__An Angular 8 Project *
+				|
+				|__Data Service
+				|
+				|__PhoneBook Component
+				|
+				|__PhoneBook Contact (a.k.a PhoneBook Entry) Component
+				|
+				|__Picture Gallery Component
+
+
+	**** Please Restore Nuget Packages/ Clean-Build Project Before Running
+
+  	***** Any Questions Feel Free To Contact me on  064 067 3166
+
+
